@@ -1,0 +1,652 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Project Tugas/INDUSTRI
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50665
+Successfully changed project path to: D:/Project Tugas/INDUSTRI
+D:/Project Tugas/INDUSTRI
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3852] Host "[IP] 192.168.56.89 [Port] 0 [Flags] 2 [Guid] 1904858159 [EditorId] 1904858159 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3852] Host "[IP] 192.168.56.89 [Port] 0 [Flags] 2 [Guid] 1904858159 [EditorId] 1904858159 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1649.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project Tugas/INDUSTRI/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008799 seconds.
+- Loaded All Assemblies, in  6.623 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 373 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.762 seconds
+Domain Reload Profiling: 7384ms
+	BeginReloadAssembly (4929ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (431ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1196ms)
+		LoadAssemblies (4925ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1193ms)
+			TypeCache.Refresh (1192ms)
+				TypeCache.ScanAssembly (912ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (713ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (573ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.449 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 6161ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (5235ms)
+		LoadAssemblies (4577ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (734ms)
+			TypeCache.Refresh (708ms)
+				TypeCache.ScanAssembly (600ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (718ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (551ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (57.1 KB). Loaded Objects now: 3946.
+Memory consumption went from 136.0 MB to 136.0 MB.
+Total: 3.789100 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.154400 ms MarkObjects: 3.078300 ms  DeleteObjects: 0.142600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9799.331715 seconds.
+  path: Assets/Map
+  artifactKey: Guid(149606b0484e46645ad31ccc839f0bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map using Guid(149606b0484e46645ad31ccc839f0bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbd456f7866c963ee4ee67608537fc8') in 0.002023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.094477 seconds.
+  path: Assets/Object
+  artifactKey: Guid(46a2448fc6dd2d84cbfdafb9b3c8730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object using Guid(46a2448fc6dd2d84cbfdafb9b3c8730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a90e440ea05aca28322e716dd2ecbff') in 0.000403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.237431 seconds.
+  path: Assets/kenney_food-kit
+  artifactKey: Guid(776e45a8cb6f1964cbe40aa515a7fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_food-kit using Guid(776e45a8cb6f1964cbe40aa515a7fc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c616d0d530f84a9f32ecb05a60e5ad92') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.592529 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.730555 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.713159 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b6d9112892823920c4a518038a02') in 0.000368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.700990 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25524e152126d39616bdb6d7e34b8aa6') in 0.000407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.691919 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(67f531b1ac9b96640836fc4b1b83611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(67f531b1ac9b96640836fc4b1b83611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8c41595938a087852da10ba2b77ed8') in 0.000383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079202 seconds.
+  path: Assets/Materials/logo ewok podcast 1.1-01.mat
+  artifactKey: Guid(74eb5ada2ea08e3448371d9b2521b350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/logo ewok podcast 1.1-01.mat using Guid(74eb5ada2ea08e3448371d9b2521b350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ef52ff2684a84701c50849f3bed78') in 0.096279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.895731 seconds.
+  path: Assets/Object/kenney_food-kit/Preview.png
+  artifactKey: Guid(3dad4808623313948b05639ee0bf3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Preview.png using Guid(3dad4808623313948b05639ee0bf3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f783e31d9d9f28754d41a625fcb8bd') in 0.023649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.950655 seconds.
+  path: Assets/Object/kenney_food-kit/Models
+  artifactKey: Guid(843480f6738f28b4ba85236360f22e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models using Guid(843480f6738f28b4ba85236360f22e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd30ca329ac76ce3689227bfcd54cb5') in 0.000467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.060319 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format
+  artifactKey: Guid(e36b5bcde588c1c4fbe8654d83d42f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format using Guid(e36b5bcde588c1c4fbe8654d83d42f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5aa10ebab6a9f2c9186bf04e1c5127') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071129 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/advocado-half.fbx
+  artifactKey: Guid(501c2a101118d1f4fa825167cf9e9f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/advocado-half.fbx using Guid(501c2a101118d1f4fa825167cf9e9f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6436484ec46951e7c928577ed7a03abc') in 0.059629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cake-slicer.fbx
+  artifactKey: Guid(d3552a1e59fea3f4aa372c0f5c6ed3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cake-slicer.fbx using Guid(d3552a1e59fea3f4aa372c0f5c6ed3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c95084524f8d2197f7cd4828c7397d2') in 0.025301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bacon.fbx
+  artifactKey: Guid(6ee24d62777ebc4448533c18c32d2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bacon.fbx using Guid(6ee24d62777ebc4448533c18c32d2b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fbbe9945c6719cb6e3d5908200064b') in 0.028919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bread.fbx
+  artifactKey: Guid(ed2c6563fc524e1409b5beb0e9bf91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bread.fbx using Guid(ed2c6563fc524e1409b5beb0e9bf91ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c76055358fd783bf50a2bfda492775') in 0.025866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/chocolate.fbx
+  artifactKey: Guid(8fb7571fc99f62d40811520dba57e3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/chocolate.fbx using Guid(8fb7571fc99f62d40811520dba57e3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199ec5a3e85ad4cc1dc3dd65f8e74c2a') in 0.024126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/banana.fbx
+  artifactKey: Guid(93c2c493566b9004fa7fa34d17cb806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/banana.fbx using Guid(93c2c493566b9004fa7fa34d17cb806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948d033c31170e5623d5175429296fb4') in 0.024344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/celery-stick.fbx
+  artifactKey: Guid(ed761c48f73f1374ca1be216a6b93ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/celery-stick.fbx using Guid(ed761c48f73f1374ca1be216a6b93ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30d2d4e665194bc3ef4d27694d45766') in 0.029220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/broccoli.fbx
+  artifactKey: Guid(ca64def5d60ba6c4bab555bb83ff7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/broccoli.fbx using Guid(ca64def5d60ba6c4bab555bb83ff7f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0e3e2b7e5361d51fd03f580a57067e') in 0.023096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/carrot.fbx
+  artifactKey: Guid(a8297d93f77619849a70bd3033905876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/carrot.fbx using Guid(a8297d93f77619849a70bd3033905876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afa165440617574aec858a5686d2bb5') in 0.028741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bowl-cereal.fbx
+  artifactKey: Guid(ccbc56ec9fe76d444a13c4380aa60449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bowl-cereal.fbx using Guid(ccbc56ec9fe76d444a13c4380aa60449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97719646b2d9f632f5f7c516821fb5a') in 0.021618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/can-open.fbx
+  artifactKey: Guid(e18bcb9aea270614a8b4154b6dcf287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/can-open.fbx using Guid(e18bcb9aea270614a8b4154b6dcf287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bef17bb0971874225ef6fddd9f5489') in 0.025731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/chocolate-wrapper.fbx
+  artifactKey: Guid(09b2427e63ce9e4469c2b5aa58393c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/chocolate-wrapper.fbx using Guid(09b2427e63ce9e4469c2b5aa58393c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca386fa8b32ecfa23d9fa580e130de15') in 0.024633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cheese-slicer.fbx
+  artifactKey: Guid(9b3b7150591c4cf499e48908625e6ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cheese-slicer.fbx using Guid(9b3b7150591c4cf499e48908625e6ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f6dbea2cc4378b2d003fb760d71b7') in 0.026619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/barrel.fbx
+  artifactKey: Guid(163a0f45cba91b04588432ecea4d3cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/barrel.fbx using Guid(163a0f45cba91b04588432ecea4d3cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bccf30c5ad9e0bf1badce13ab62a8ce') in 0.020595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/burger-cheese.fbx
+  artifactKey: Guid(ee879b705532b6d4ead792b67d60d330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/burger-cheese.fbx using Guid(ee879b705532b6d4ead792b67d60d330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7610f29169fcb935ef0778d9810a8a83') in 0.046994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/burger-double.fbx
+  artifactKey: Guid(ea491d53de181e548b39c776fc40c194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/burger-double.fbx using Guid(ea491d53de181e548b39c776fc40c194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4e965a4cf7d54265030ffaf9ac31c') in 0.085813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bowl-soup.fbx
+  artifactKey: Guid(260508840ee5c4e44acc1f96406d8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bowl-soup.fbx using Guid(260508840ee5c4e44acc1f96406d8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad6c8e76e9b718a82b92073ca52bc6') in 0.021505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bacon-raw.fbx
+  artifactKey: Guid(d04b303e893c7ac46a4eb5171cb684fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bacon-raw.fbx using Guid(d04b303e893c7ac46a4eb5171cb684fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea59d1edf5638c35a139e1fbab0728') in 0.019973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/bag.fbx
+  artifactKey: Guid(8a7f360cd57223a42afea18feed7e6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/bag.fbx using Guid(8a7f360cd57223a42afea18feed7e6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d92ce658ad64d7db62a6a2f75e91b72') in 0.022890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cake.fbx
+  artifactKey: Guid(0dafca65301a2d949a781dbe7dfa22b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cake.fbx using Guid(0dafca65301a2d949a781dbe7dfa22b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0577d172b5a6c96f7c285af8cbaf8228') in 0.061112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cheese-cut.fbx
+  artifactKey: Guid(5a400deb5c4dda648a804e774ea34878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cheese-cut.fbx using Guid(5a400deb5c4dda648a804e774ea34878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b9dfd19feaaaf843a25a7580ba0925') in 0.021981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cheese.fbx
+  artifactKey: Guid(ca6813e5788aedf448e80835f09f184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cheese.fbx using Guid(ca6813e5788aedf448e80835f09f184e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b456f65c010ed009e983939b886644') in 0.109749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 3.039113 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/chopstick.fbx
+  artifactKey: Guid(e572c8efa384ebd4ab6d274a58c66f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/chopstick.fbx using Guid(e572c8efa384ebd4ab6d274a58c66f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d109386adbe82b68eedd8acee59ae59') in 0.020626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cooking-knife.fbx
+  artifactKey: Guid(425b082fdc7626348b1dd6c9b0fe3e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cooking-knife.fbx using Guid(425b082fdc7626348b1dd6c9b0fe3e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f33c5df4107dcc4c43524d5b29e21') in 0.022015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/coconut.fbx
+  artifactKey: Guid(e78e877a87372934db0bedf3e29bc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/coconut.fbx using Guid(e78e877a87372934db0bedf3e29bc3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e522624d911ec38c7cf8ace33c035fbb') in 0.022786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cooking-fork.fbx
+  artifactKey: Guid(6b156f8621698754298ef600548c3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cooking-fork.fbx using Guid(6b156f8621698754298ef600548c3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3225198c535cf0258b63a6cdc2c5be') in 0.024718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 16.539551 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/cooking-spatula.fbx
+  artifactKey: Guid(6cc50b05bd44d484fb239b50d91ca5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/cooking-spatula.fbx using Guid(6cc50b05bd44d484fb239b50d91ca5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277f9e69fd6d210d4c79445626c193a') in 0.034159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/croissant.fbx
+  artifactKey: Guid(24789ecf65f847b49a6b8dd3565ad15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/croissant.fbx using Guid(24789ecf65f847b49a6b8dd3565ad15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0828ed1d95f03590a9ec89129412a55') in 0.027503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Object/kenney_food-kit/Models/FBX format/corn.fbx
+  artifactKey: Guid(63a13b99750710e41ba31acb919bc175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Object/kenney_food-kit/Models/FBX format/corn.fbx using Guid(63a13b99750710e41ba31acb919bc175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d27ecb62a18854a5b88f82746f0c29f') in 0.022581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1256ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (324ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3994.
+Memory consumption went from 129.5 MB to 129.4 MB.
+Total: 6.707400 ms (FindLiveObjects: 0.648000 ms CreateObjectMapping: 0.448100 ms MarkObjects: 5.333700 ms  DeleteObjects: 0.275300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.932 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (933ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3997.
+Memory consumption went from 129.7 MB to 129.7 MB.
+Total: 4.041700 ms (FindLiveObjects: 0.399700 ms CreateObjectMapping: 0.282900 ms MarkObjects: 3.302600 ms  DeleteObjects: 0.055200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
