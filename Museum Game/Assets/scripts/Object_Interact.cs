@@ -4,28 +4,26 @@ using UnityEngine;
 
 public class Object_Interact : MonoBehaviour
 {
-    public GameObject offset;               // Objek tempat objek lain akan bergerak saat di-inspect
-    public Canvas _canva;                   // Canvas yang akan diaktifkan/nonaktifkan
-    public GameObject tableObject;          // Objek yang akan diperiksa jaraknya dari player
+    public GameObject offset;              
+    public Canvas _canva;                   
+    public GameObject tableObject;          
 
-    public float rotationSensitivity = 0.5f; // Sensitivitas rotasi saat inspect
+    public float rotationSensitivity = 0.5f; 
 
-    private GameObject targetObject;        // Referensi ke objek pemain
-    private FPSController fpsController;    // Kontrol untuk menghentikan gerakan FPS saat inspeksi
-    private Vector3 lastMousePosition;      // Posisi mouse terakhir untuk menghitung delta
-    private Transform examinedObject;       // Objek yang sedang di-inspect
-    private Rigidbody examinedRigidbody;    // Rigidbody dari objek yang sedang di-inspect
+    private GameObject targetObject;        
+    private FPSController fpsController;    
+    private Vector3 lastMousePosition;      
+    private Transform examinedObject;       
+    private Rigidbody examinedRigidbody;    
 
     private Dictionary<Transform, Vector3> originalPositions = new Dictionary<Transform, Vector3>();
     private Dictionary<Transform, Quaternion> originalRotations = new Dictionary<Transform, Quaternion>();
     
-    public bool isExamining = false;        // Status apakah sedang dalam mode inspect atau tidak
+    public bool isExamining = false;        
 
     void Start()
     {
         _canva.enabled = false;
-
-        // Inisialisasi targetObject dan fpsController
         targetObject = GameObject.Find("PlayerCapsule");
 
         if (targetObject != null)
@@ -94,12 +92,11 @@ public class Object_Interact : MonoBehaviour
         examinedObject = newExaminedObject;
         if (examinedObject != null)
         {
-            // Simpan posisi, rotasi, dan referensi ke Rigidbody dari objek yang sedang di-inspect
             originalPositions[examinedObject] = examinedObject.position;
             originalRotations[examinedObject] = examinedObject.rotation;
             examinedRigidbody = examinedObject.GetComponent<Rigidbody>();
 
-            // Nonaktifkan Rigidbody jika ada
+            
             if (examinedRigidbody != null)
             {
                 examinedRigidbody.isKinematic = true;
@@ -109,22 +106,22 @@ public class Object_Interact : MonoBehaviour
         lastMousePosition = Input.mousePosition;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-        fpsController.canMove = false;  // Menghentikan gerakan pemain saat inspect
+        fpsController.canMove = false; 
     }
 
     void StopExamination()
     {
         if (examinedObject != null)
         {
-            // Kembalikan posisi dan rotasi objek
+            
             examinedObject.position = originalPositions[examinedObject];
             examinedObject.rotation = originalRotations[examinedObject];
 
-            // Aktifkan kembali Rigidbody jika ada
+          
             if (examinedRigidbody != null)
             {
                 examinedRigidbody.isKinematic = false;
-                examinedRigidbody = null;  // Hapus referensi setelah selesai
+                examinedRigidbody = null;  
             }
 
             examinedObject = null;
@@ -132,7 +129,7 @@ public class Object_Interact : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        fpsController.canMove = true;   // Mengizinkan kembali gerakan pemain
+        fpsController.canMove = true;   
     }
 
     void Examine()
