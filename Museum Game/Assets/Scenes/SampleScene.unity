@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 173367a7a57bd23459688fba98242444, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2286,13 +2286,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2145437811}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bd98dcaa03274042b75a22eb6faa02a, type: 3}
+  m_Script: {fileID: 11500000, guid: 408c5cf79915b3b45ac676af419f4e73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {fileID: 721728238}
   _canva: {fileID: 695479852}
   tableObject: {fileID: 27417990}
-  rotationSensitivity: 0.2
+  rotationSensitivity: 0.5
   isExamining: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
