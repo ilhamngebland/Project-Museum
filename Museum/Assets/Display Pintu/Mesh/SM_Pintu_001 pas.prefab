@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639287277860315405}
+  - component: {fileID: 8437861853826627278}
   m_Layer: 0
   m_Name: SM_Pintu_001 pas
   m_TagString: Untagged
@@ -33,6 +34,28 @@ Transform:
   - {fileID: 5421669725311653853}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -46.024, z: 0}
+--- !u!64 &8437861853826627278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922242895641876028}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &959651571554567397
 GameObject:
   m_ObjectHideFlags: 0
@@ -75,6 +98,7 @@ GameObject:
   - component: {fileID: 5421669725311653853}
   - component: {fileID: 8847293326156762531}
   - component: {fileID: 2253633609214501337}
+  - component: {fileID: 3982867168482257338}
   m_Layer: 0
   m_Name: Sphere.001
   m_TagString: Untagged
@@ -152,3 +176,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3982867168482257338
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872469718842430014}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 70948873267775455, guid: 2ce3f17db62ae0949a3f19437e693582, type: 3}
