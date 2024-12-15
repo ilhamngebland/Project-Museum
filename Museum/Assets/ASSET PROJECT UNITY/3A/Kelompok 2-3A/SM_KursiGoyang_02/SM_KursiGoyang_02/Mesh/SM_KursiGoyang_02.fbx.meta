@@ -3,7 +3,32 @@ guid: a123b8cb634ef5948863df0e43acea2f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Jerami_Atas
+    second: {fileID: 2100000, guid: 57b46e5b6c232324b89e4be474f93adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Jerami_Bawah
+    second: {fileID: 2100000, guid: 4db651fc83a7ebe4c82361dc95529da4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Kayu_Kaki
+    second: {fileID: 2100000, guid: b3dc6c7146500b046b113f289a191f74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Kayu_Tangan
+    second: {fileID: 2100000, guid: 8df7f7a697420d948a91f7874bd699b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Kayu_kerangka
+    second: {fileID: 2100000, guid: ec6a6bc6537f3ff45b9fb440fa0b616c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

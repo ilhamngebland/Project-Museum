@@ -15,7 +15,7 @@ E:/GIthub/Museum/Project-Museum/Museum
 -logFile
 Logs/AssetImportWorker6.log
 -srvPort
-49643
+50652
 Successfully changed project path to: E:/GIthub/Museum/Project-Museum/Museum
 E:/GIthub/Museum/Project-Museum/Museum
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/GIthub/Museum/Project-Museum/Museum
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27292] Host "[IP] 192.168.74.89 [Port] 0 [Flags] 2 [Guid] 697111024 [EditorId] 697111024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8868] Host "[IP] 192.168.74.89 [Port] 0 [Flags] 2 [Guid] 483469051 [EditorId] 483469051 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [27292] Host "[IP] 192.168.74.89 [Port] 0 [Flags] 2 [Guid] 697111024 [EditorId] 697111024 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8868] Host "[IP] 192.168.74.89 [Port] 0 [Flags] 2 [Guid] 483469051 [EditorId] 483469051 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-TMGPBVB5) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 10.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008101 seconds.
+Registered in 0.008075 seconds.
 - Loaded All Assemblies, in  0.300 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 252 ms
+Android Extension - Scanning For ADB Devices 218 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.522 seconds
-Domain Reload Profiling: 821ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0.488 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (116ms)
-		LoadAssemblies (92ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (112ms)
-				TypeCache.ScanAssembly (101ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (522ms)
+	FinalizeReload (488ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
+		SetupLoadedEditorAssemblies (441ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (349ms)
+			InitializePlatformSupportModulesInManaged (312ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadAttributes (85ms)
 			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -118,52 +118,52 @@ Domain Reload Profiling: 821ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.631 seconds
+- Loaded All Assemblies, in  0.535 seconds
 Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.683 seconds
-Domain Reload Profiling: 1312ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.568 seconds
+Domain Reload Profiling: 1101ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (299ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (148ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (683ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (568ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
+		SetupLoadedEditorAssemblies (444ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (29ms)
+			InitializePlatformSupportModulesInManaged (21ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (297ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4941 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (350.2 KB). Loaded Objects now: 5405.
+Unloading 62 unused Assets / (349.6 KB). Loaded Objects now: 5405.
 Memory consumption went from 206.2 MB to 205.8 MB.
-Total: 3.634300 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.303700 ms MarkObjects: 2.776900 ms  DeleteObjects: 0.182900 ms)
+Total: 3.990600 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.400900 ms MarkObjects: 2.874000 ms  DeleteObjects: 0.197700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,44 +181,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24129.742340 seconds.
-  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_Bajuadat_01.png
-  artifactKey: Guid(e118ef81edf8aad4baf270b257ddb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_Bajuadat_01.png using Guid(e118ef81edf8aad4baf270b257ddb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61b30d545095c4629ee79fae45182eb') in 0.083637 seconds
+  Time since last request: 3493.503533 seconds.
+  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 4-3A/Poster Display/Asset/Display/Texture/M_Tjoet_Nya_Dhien.mat
+  artifactKey: Guid(452b8815c0edc0144b2fea44be745065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 4-3A/Poster Display/Asset/Display/Texture/M_Tjoet_Nya_Dhien.mat using Guid(452b8815c0edc0144b2fea44be745065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d09cc64825433a0996c29d93746995') in 0.241936 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 199.037134 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood1_Normal.mat
+  artifactKey: Guid(e52411cd593c3384db9714f515bf40d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood1_Normal.mat using Guid(e52411cd593c3384db9714f515bf40d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf69dd42fa5432fdf898324d10321405') in 0.024825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_MahmudBadaruddin_01.jpg
-  artifactKey: Guid(676bdf3354a0750409f44695a8d4d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_MahmudBadaruddin_01.jpg using Guid(676bdf3354a0750409f44695a8d4d012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50007b4ad1d6e91eabf3df07e8880250') in 0.020679 seconds
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood1_Roughness.mat
+  artifactKey: Guid(51522f5479d5e694ea2eda571f589846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood1_Roughness.mat using Guid(51522f5479d5e694ea2eda571f589846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e2af4e5056d9b36f0f380f4eaeda3') in 0.028224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 55.501637 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood2_Normal.png
+  artifactKey: Guid(9ce010c9d365e7d46b3932d75a5c5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 2-3B/Lemari blend/Materials/room_cupboard_wood2_Normal.png using Guid(9ce010c9d365e7d46b3932d75a5c5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192683b18567b1510305eab6cb40597b') in 0.024536 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_UntungSurapati_01.jpg
-  artifactKey: Guid(835ff355170374f4d8da5a60161c2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_UntungSurapati_01.jpg using Guid(835ff355170374f4d8da5a60161c2419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f230b26e5d2a21d519dbfed8a34d21') in 0.021146 seconds
+  Time since last request: 343.298197 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 3-3B/Rak/Rak Base.blend
+  artifactKey: Guid(6830624413ea3f443927cbd8d05c8921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 3-3B/Rak/Rak Base.blend using Guid(6830624413ea3f443927cbd8d05c8921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d57fbc2c910c266d90821ace799261') in 0.718193 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 360
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_KiHajarDewantara_01.jpg
-  artifactKey: Guid(bd06a505edc5f914ca0339a853bf702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_KiHajarDewantara_01.jpg using Guid(bd06a505edc5f914ca0339a853bf702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22969cb4e8eff300935dc8fd432f0893') in 0.021874 seconds
+  Time since last request: 109.364278 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_02(Yoris).fbx
+  artifactKey: Guid(bceb9af91b7f02145bfbe40df86a1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_02(Yoris).fbx using Guid(bceb9af91b7f02145bfbe40df86a1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dc32492d9f2c1a39ab57813038fdbb') in 0.046263 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_BungTomo_01.jpg
-  artifactKey: Guid(3d32bbfbd16276846955f28194768e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ASSET PROJECT UNITY/3A/Kelompok 2-3A/SM_BingkaiPahlawanBajuAdat_01/Texture/T_BungTomo_01.jpg using Guid(3d32bbfbd16276846955f28194768e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6e99a1209a16d0c91bce4018491094') in 0.021905 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_07(balqis).fbx
+  artifactKey: Guid(b8ced592bab5d114db94ff75f3941e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_07(balqis).fbx using Guid(b8ced592bab5d114db94ff75f3941e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aefeefcaa17239838b050f13495ba8') in 0.090579 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_08(balqis).fbx
+  artifactKey: Guid(f9589d2d6a5168e4abbc504b47205e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASSET PROJECT UNITY/3B/Kelompok 4-3B/Coin/COIN FBXNYA/SM_Coin_08(balqis).fbx using Guid(f9589d2d6a5168e4abbc504b47205e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5008154d64764edc871dcad3e65df3d5') in 0.061102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
